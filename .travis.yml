@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode12.2
-xcode_workspace: DemoCi.xcworkspace
-xcode_scheme: DemoCi_Development
+xcode_workspace: DemoCI.xcworkspace
+xcode_scheme: DemoCI_Development
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
   - bundle install
