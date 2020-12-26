@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode12.2
 xcode_project: DemoCI.xcodeproj
 xcode_scheme: DemoCI
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11
+xcode_destination: platform=iOS Simulator,OS=14.0.1,name=iPhone 11
 # before_install:
 #   - bundle install
 #   - bundle exec pod install --repo-update
