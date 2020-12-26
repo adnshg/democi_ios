@@ -13,7 +13,26 @@
 		EC6DB79C2597739800898ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DB79A2597739800898ADF /* Main.storyboard */; };
 		EC6DB79E2597739900898ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6DB79D2597739900898ADF /* Assets.xcassets */; };
 		EC6DB7A12597739900898ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DB79F2597739900898ADF /* LaunchScreen.storyboard */; };
+		EC6DB7B02597846C00898ADF /* DemoCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DB7AF2597846C00898ADF /* DemoCITests.swift */; };
+		EC6DB7C02597847F00898ADF /* DemoCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DB7BF2597847F00898ADF /* DemoCIUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6DB7B22597846C00898ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6DB7892597739800898ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6DB7902597739800898ADF;
+			remoteInfo = DemoCI;
+		};
+		EC6DB7C22597847F00898ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6DB7892597739800898ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6DB7902597739800898ADF;
+			remoteInfo = DemoCI;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EC6DB7912597739800898ADF /* DemoCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +43,30 @@
 		EC6DB79D2597739900898ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6DB7A02597739900898ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6DB7A22597739900898ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6DB7AD2597846C00898ADF /* DemoCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6DB7AF2597846C00898ADF /* DemoCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCITests.swift; sourceTree = "<group>"; };
+		EC6DB7B12597846C00898ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6DB7BD2597847F00898ADF /* DemoCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6DB7BF2597847F00898ADF /* DemoCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCIUITests.swift; sourceTree = "<group>"; };
+		EC6DB7C12597847F00898ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC6DB78E2597739800898ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DB7AA2597846C00898ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DB7BA2597847F00898ADF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				EC6DB7932597739800898ADF /* DemoCI */,
+				EC6DB7AE2597846C00898ADF /* DemoCITests */,
+				EC6DB7BE2597847F00898ADF /* DemoCIUITests */,
 				EC6DB7922597739800898ADF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				EC6DB7912597739800898ADF /* DemoCI.app */,
+				EC6DB7AD2597846C00898ADF /* DemoCITests.xctest */,
+				EC6DB7BD2597847F00898ADF /* DemoCIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +108,24 @@
 				EC6DB7A22597739900898ADF /* Info.plist */,
 			);
 			path = DemoCI;
+			sourceTree = "<group>";
+		};
+		EC6DB7AE2597846C00898ADF /* DemoCITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6DB7AF2597846C00898ADF /* DemoCITests.swift */,
+				EC6DB7B12597846C00898ADF /* Info.plist */,
+			);
+			path = DemoCITests;
+			sourceTree = "<group>";
+		};
+		EC6DB7BE2597847F00898ADF /* DemoCIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6DB7BF2597847F00898ADF /* DemoCIUITests.swift */,
+				EC6DB7C12597847F00898ADF /* Info.plist */,
+			);
+			path = DemoCIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +148,42 @@
 			productReference = EC6DB7912597739800898ADF /* DemoCI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EC6DB7AC2597846C00898ADF /* DemoCITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6DB7B42597846C00898ADF /* Build configuration list for PBXNativeTarget "DemoCITests" */;
+			buildPhases = (
+				EC6DB7A92597846C00898ADF /* Sources */,
+				EC6DB7AA2597846C00898ADF /* Frameworks */,
+				EC6DB7AB2597846C00898ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6DB7B32597846C00898ADF /* PBXTargetDependency */,
+			);
+			name = DemoCITests;
+			productName = DemoCITests;
+			productReference = EC6DB7AD2597846C00898ADF /* DemoCITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6DB7BC2597847F00898ADF /* DemoCIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6DB7C42597847F00898ADF /* Build configuration list for PBXNativeTarget "DemoCIUITests" */;
+			buildPhases = (
+				EC6DB7B92597847F00898ADF /* Sources */,
+				EC6DB7BA2597847F00898ADF /* Frameworks */,
+				EC6DB7BB2597847F00898ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6DB7C32597847F00898ADF /* PBXTargetDependency */,
+			);
+			name = DemoCIUITests;
+			productName = DemoCIUITests;
+			productReference = EC6DB7BD2597847F00898ADF /* DemoCIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +195,14 @@
 				TargetAttributes = {
 					EC6DB7902597739800898ADF = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					EC6DB7AC2597846C00898ADF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC6DB7902597739800898ADF;
+					};
+					EC6DB7BC2597847F00898ADF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EC6DB7902597739800898ADF;
 					};
 				};
 			};
@@ -115,6 +220,8 @@
 			projectRoot = "";
 			targets = (
 				EC6DB7902597739800898ADF /* DemoCI */,
+				EC6DB7AC2597846C00898ADF /* DemoCITests */,
+				EC6DB7BC2597847F00898ADF /* DemoCIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +234,20 @@
 				EC6DB7A12597739900898ADF /* LaunchScreen.storyboard in Resources */,
 				EC6DB79E2597739900898ADF /* Assets.xcassets in Resources */,
 				EC6DB79C2597739800898ADF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DB7AB2597846C00898ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DB7BB2597847F00898ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +264,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC6DB7A92597846C00898ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6DB7B02597846C00898ADF /* DemoCITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6DB7B92597847F00898ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6DB7C02597847F00898ADF /* DemoCIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6DB7B32597846C00898ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6DB7902597739800898ADF /* DemoCI */;
+			targetProxy = EC6DB7B22597846C00898ADF /* PBXContainerItemProxy */;
+		};
+		EC6DB7C32597847F00898ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6DB7902597739800898ADF /* DemoCI */;
+			targetProxy = EC6DB7C22597847F00898ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC6DB79A2597739800898ADF /* Main.storyboard */ = {
@@ -319,6 +469,88 @@
 			};
 			name = Release;
 		};
+		EC6DB7B52597846C00898ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UH4R5623G;
+				INFOPLIST_FILE = DemoCITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnshg.DemoCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCI.app/DemoCI";
+			};
+			name = Debug;
+		};
+		EC6DB7B62597846C00898ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UH4R5623G;
+				INFOPLIST_FILE = DemoCITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnshg.DemoCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCI.app/DemoCI";
+			};
+			name = Release;
+		};
+		EC6DB7C52597847F00898ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UH4R5623G;
+				INFOPLIST_FILE = DemoCIUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnshg.DemoCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoCI;
+			};
+			name = Debug;
+		};
+		EC6DB7C62597847F00898ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UH4R5623G;
+				INFOPLIST_FILE = DemoCIUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnshg.DemoCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoCI;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +568,24 @@
 			buildConfigurations = (
 				EC6DB7A62597739900898ADF /* Debug */,
 				EC6DB7A72597739900898ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6DB7B42597846C00898ADF /* Build configuration list for PBXNativeTarget "DemoCITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6DB7B52597846C00898ADF /* Debug */,
+				EC6DB7B62597846C00898ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6DB7C42597847F00898ADF /* Build configuration list for PBXNativeTarget "DemoCIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6DB7C52597847F00898ADF /* Debug */,
+				EC6DB7C62597847F00898ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
